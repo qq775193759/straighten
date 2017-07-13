@@ -5,8 +5,7 @@ int main()
 {
 	Path origin("edge_voxel/chair_y.txt");
 	Transform straighten(origin);
-
-	
+	straighten.recurrent();
 
 
 
